@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5437AD0319EED96700AA50BE /* Notifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 5437AD0219EED96700AA50BE /* Notifications.m */; };
 		A3869C4219ED88520052264F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3869C4119ED88520052264F /* Foundation.framework */; };
 		A3869C4419ED88520052264F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3869C4319ED88520052264F /* CoreGraphics.framework */; };
 		A3869C4619ED88520052264F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3869C4519ED88520052264F /* UIKit.framework */; };
@@ -48,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5437AD0119EED96700AA50BE /* Notifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notifications.h; sourceTree = "<group>"; };
+		5437AD0219EED96700AA50BE /* Notifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Notifications.m; sourceTree = "<group>"; };
 		A3869C3E19ED88520052264F /* LUGManipal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LUGManipal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3869C4119ED88520052264F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A3869C4319ED88520052264F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -212,6 +215,8 @@
 		A3869C7619ED88580052264F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5437AD0119EED96700AA50BE /* Notifications.h */,
+				5437AD0219EED96700AA50BE /* Notifications.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -340,6 +345,7 @@
 			files = (
 				A3869C5819ED88520052264F /* ViewController.m in Sources */,
 				A3869C5219ED88520052264F /* AppDelegate.m in Sources */,
+				5437AD0319EED96700AA50BE /* Notifications.m in Sources */,
 				A3869C4E19ED88520052264F /* main.m in Sources */,
 				A3EABCEA19EEB1AA00203670 /* MBProgressHUD.m in Sources */,
 			);
