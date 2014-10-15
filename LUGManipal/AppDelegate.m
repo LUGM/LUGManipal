@@ -6,6 +6,7 @@
 //  Copyright (c) 2014 LUG. All rights reserved.
 //
 
+#import <Parse/Parse.h>
 #import "AppDelegate.h"
 
 @implementation AppDelegate
@@ -13,6 +14,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    
+    [Parse setApplicationId:@"wPBqAPFLBuSms7zJ5z3d3xWjV5VBMCXQNwpBaJRO" clientKey:@"4GjHWzJlDMNp8s2yvP8U5PCjkhVNIMrV6QfI8S1O"];
+    
     return YES;
 }
 							
