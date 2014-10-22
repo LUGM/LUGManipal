@@ -10,4 +10,8 @@
 
 @interface DetailView : UIView
 
+@property (weak, nonatomic) IBOutlet UILabel *eventTitleLabel;
+
+@property (weak, nonatomic) IBOutlet UITextView *detailTextView;
+
 @end

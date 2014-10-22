@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AF24256E-6533-400C-9691-118FE0DA298C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LUGManipal</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F3268CBF9A6D300C05AF7653851363F278C0F778</key>
+		<string>https://github.com/luk4shubhs/LUGManipal.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LUGManipal.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F3268CBF9A6D300C05AF7653851363F278C0F778</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/luk4shubhs/LUGManipal.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F3268CBF9A6D300C05AF7653851363F278C0F778</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F3268CBF9A6D300C05AF7653851363F278C0F778</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LUGManipal</string>
+		</dict>
+	</array>
+</dict>
+</plist>
