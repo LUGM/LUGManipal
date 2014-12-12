@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
+        <deployment defaultVersion="1808" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <objects>
@@ -13,8 +14,12 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sbc-dt-SqY">
                     <rect key="frame" x="0.0" y="0.0" width="300" height="75"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TITLE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xwa-WG-8EF">
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TITLE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="xwa-WG-8EF">
                             <rect key="frame" x="3" y="8" width="294" height="59"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="294" id="2gp-Ou-Rzv"/>
+                                <constraint firstAttribute="height" constant="59" id="VnL-ie-ani"/>
+                            </constraints>
                             <fontDescription key="fontDescription" type="system" pointSize="22"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <nil key="highlightedColor"/>
@@ -24,6 +29,8 @@
                     <constraints>
                         <constraint firstAttribute="width" constant="300" id="6iX-6L-eGt"/>
                         <constraint firstAttribute="height" constant="75" id="J7N-3w-mRx"/>
+                        <constraint firstItem="xwa-WG-8EF" firstAttribute="top" secondItem="sbc-dt-SqY" secondAttribute="top" constant="8" id="LxB-fW-lnT"/>
+                        <constraint firstAttribute="centerX" secondItem="xwa-WG-8EF" secondAttribute="centerX" id="QRr-wp-DOJ"/>
                     </constraints>
                 </view>
                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="MqA-FS-4Lv">
